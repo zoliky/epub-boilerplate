@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "Charis SIL Compact";
+  src:("../fonts/CharisSIL-Compact-Regular.ttf")
+}
+
+@font-face {
+  font-family: "Charis SIL Compact Bold";
+  src:("../fonts/CharisSIL-Compact-Bold.ttf")
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* Reset */
+
+h1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 2em;
+}
+
+/* END Reset */
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-indent: 1.5em;
+  margin: 0.2em 0 0;
+}
+
+p.chapter {
+  text-align: center;
+  text-indent: 0em;
+  font-size: 2em;
+  font-weight: bold;
+  /*margin-top: 3em;*/
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+  page-break-before: always;
+}
+
+p.headline {
+  text-size: 1.5em;
+  text-indent: 1.5em;
+  font-weight: bold;
+  margin-top: 1.5em;
+}
+
+/* Chapter Image Replacement Hack */
+p.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+/* Center text */
+p.centered {
+  text-align: center;
+  text-indent: 0em;
+}
+
+span.centered {
+  text-align: center;
+  text-indent: 0em;
+}
+
+
+/* Center text - Scenebreak */
+p.scenebreak {
+  text-align: center;
+  text-indent: 0em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+span.scenebreak {
+  text-align: center;
+  text-indent: 0;
+}
+
+/* Images */
+img.vignette {
+  height: 10em;
+}
+
+/* Initials */
+p.first {
+  text-indent: 0em;
+}
+
+span.cap {
+  font-size: 3em;
+  line-height: 0em;
+}
